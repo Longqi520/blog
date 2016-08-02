@@ -7,13 +7,11 @@ url:              https://longqi520.github.io/blog/
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
 baseurl:          /blog
 
-title:            Hydejack
+title:            马隆琦
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [`@qwtel`](https://twitter.com/qwtel)
-  from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+  我的博客
 
 # The tags listed as entries in the sidebar
 sidebar_tags:     [jekyll, hyde]
