@@ -11,7 +11,7 @@ title:            马隆琦
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
-  我的博客
+  我的博客 
 
 # The tags listed as entries in the sidebar
 sidebar_tags:     [jekyll, hyde]
