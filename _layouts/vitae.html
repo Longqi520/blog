@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+{% assign tag = site.data.tags[page.tag] %}
+<link rel="stylesheet" href="{{ site.baseurl }}/public/css/vitae.css">
+
+<h1 class="vt-title">我的简历</h1>
+
+<hr/>
+<div class="vt-section clearfix">
+    <div class="photobox">
+        <img src="{{ site.author.photo }}" alt="">
+    </div>
+    <div class="descript">
+        <ul class="list-infor">
+            <li>马隆琦</li>
+            <li>女</li>
+            <li>山东工商学院</li>
+            <li>数字媒体技术专业</li>
+            <li>2011.09-2015.06</li>
+        </ul>
+    </div>
+</div>
+<hr/>
+
+<div class="vt-section c-blue">
+    <h2 class="vt-subtit">教育经历</h2>
+    <div class="clearfix">
+        <ul class="side-left ">
+            <li>本科</li>
+            <li>山东工商学院</li>
+            <li>数字媒体技术专业</li>
+            <li>2011.09-2015.06</li>
+
+        </ul>
+        <div class="side-right">
+            <p>在校期间积极参加校内外组织和活动</p>
+            <p>专业成绩优异</p>
+        </div>
+    </div>
+</div>
+<div class="vt-section c-purple">
+    <h2 class="vt-subtit">工作经历</h2>
+    <div class="clearfix">
+        <ul class="side-left">
+            <li>聚通网络科技公司</li>
+            <li>前端工程师</li>
+            <li> 2014.11-2015.06</li>
+
+        </ul>
+        <div class="side-right">
+            <p>主要负责网站前端。</p>
+            <p>期间经手的项目PMC大赛网站前端</p>
+            <p>全球电水气热项目前端网站搭建</p>
+            <p>地产云手机静态网站搭建以</p>
+            <p>smile、modal、百乐麦、贵金属等APP项目的后台管理界面的搭建。</p>
+        </div>
+    </div>
+</div>
+<div class="vt-section c-purple">
+    <div class="clearfix">
+        <ul class="side-left">
+            <li>中青旅遨游网</li>
+            <li>前端工程师</li>
+            <li> 2015.07-现在</li>
+
+        </ul>
+        <div class="side-right">
+            <p>爬山虎系统页面切图及后续优化，sass样式重构分模块以满足后端分拆css要求</p>
+            <p>活动专题上线。</p>
+            <p>移动端页面切图</p>
+            <p>遨游网首页优化。</p>
+        </div>
+    </div>
+</div>
+<div class="vt-section c-purple">
+    <div class="clearfix">
+        <ul class="side-left">
+            <li>网站1</li>
+            <li>前端工程师</li>
+            <li> 2015.07-现在</li>
+
+        </ul>
+        <div class="side-right">
+            <a href="{{ site.baseurl }}/works/zyx/detail.html">自由行页面</a>
+            <p>活动专题上线。</p>
+            <p>移动端页面切图</p>
+            <p>遨游网首页优化。</p>
+        </div>
+    </div>
+</div>

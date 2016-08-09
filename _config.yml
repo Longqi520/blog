@@ -7,36 +7,36 @@ url:              https://longqi520.github.io/blog/
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
 baseurl:          /blog
 
-title:            马隆琦
+title:            我的博客
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
-  我的博客 
+  记录日常工作中的学习体会,总结工作中的知识与技能
 
 # The tags listed as entries in the sidebar
-sidebar_tags:     [jekyll, hyde]
+sidebar_tags:     [vitae, hyde]
 
 # Fallback image and color if not overwritten for tag or post
 image:            /blog/public/img/nap.jpg
 color:            '#A85641'
 
 author:
-  name:           'Florian Klampfer'
+  name:           '马隆琦'
 
   # Setting social media usernames will add icons at the bottom of the sidebar
-  twitter:        qwtel
+  twitter:
   github:         blog
 
   # Setting a disqus username will enable the comment section
   disqus:         qwtel
 
   # This photo will be used in the about section
-  photo:          https://longqi520.github.io/blog/public/img/jekyll.jpg
+  photo:          /blog/public/img/photo.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:          |
-    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
-    I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
+  about:          
+    马隆琦
+    前端工程师
 
     Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
 

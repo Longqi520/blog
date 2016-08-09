@@ -1,0 +1,72 @@
+.vt-title{
+    font-size: 36px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+.vt-subtit{
+    padding-left: 12px;
+    font-size: 18px;
+    border-width: 0 0 0 4px ;
+    border-style: solid;
+}
+.vt-section{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 30px;
+}
+.side-left{
+    float: left;
+    width:200px ;
+    margin-right: 20px;
+    text-align: right;
+}
+.photobox{
+    float: left;
+}
+.list-infor{
+    float: left;
+}
+.list-infor li{
+    list-style: none;
+}
+.photobox img{
+    width: 140px;
+}
+.side-left li{
+    line-height: 20px;
+    margin: 0;
+    list-style: none;
+}
+.side-right{
+    float: right;
+    width:428px ;
+    text-align: left;
+
+}
+.side-right p{
+    line-height: 20px;
+    margin: 0;
+}
+.c-blue li{
+    color: #61bed0;
+}
+.c-blue .vt-subtit{
+    border-color: #61bed0;
+}
+.c-purple li{
+    color: #ec73b8;
+}
+.c-purple .vt-subtit{
+    border-color: #ec73b8;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
